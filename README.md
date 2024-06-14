@@ -1,7 +1,7 @@
 
-<p align="center">
+<h1 align="center">
   Currency Converter
-</p>
+</h1>
 
 <p align="center">
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;|&nbsp;&nbsp;
