@@ -52,22 +52,36 @@ public class MenuConverter {
                 case 3:
                     System.out.println("\nVocê escolheu Dólar =>>> Real");
                     System.out.println("Digite o valor em Dólar");
-                    // Adicione a lógica de conversão aqui
+                    valorUSD = valor.nextDouble();
+
+                    double valorBRL = ConverterCurrency.convertUSDtoBRL(valorUSD);
+                    System.out.printf("Valor convertido: %2f USD\n", valorBRL);
                     break;
                 case 4:
                     System.out.println("\nVocê escolheu Real =>>> Dólar");
                     System.out.println("Digite o valor em Real");
-                    // Adicione a lógica de conversão aqui
+                    valorBRL = valor.nextDouble();
+
+                    valorUSD = ConverterCurrency.convertBRLtoUSD(valorBRL);
+                    System.out.printf("Valor convertido: %2f USD\n", valorUSD);
                     break;
                 case 5:
                     System.out.println("\nVocê escolheu Dólar =>>> Peso Colombiano");
                     System.out.println("Digite o valor em Dólar");
-                    // Adicione a lógica de conversão aqui
+                    valorUSD = valor.nextDouble();
+
+                    double valorCOP = ConverterCurrency.convertCOPtoUSD(valorUSD);
+                    System.out.printf("Valor convertido: %2f USD\n", valorCOP);
+
                     break;
                 case 6:
                     System.out.println("\nVocê escolheu Peso Colombiano =>>> Dólar");
                     System.out.println("Digite o valor em Peso Colombiano");
-                    // Adicione a lógica de conversão aqui
+                    valorCOP = valor.nextDouble();
+
+                    valorUSD = ConverterCurrency.convertCOPtoUSD(valorCOP);
+                    System.out.printf("Valor convertido: %2f USD\n", valorUSD);
+
                     break;
                 case 7:
                     System.out.println("Saindo...");
