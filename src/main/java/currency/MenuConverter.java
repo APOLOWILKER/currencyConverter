@@ -55,7 +55,7 @@ public class MenuConverter {
                     valorUSD = valor.nextDouble();
 
                     double valorBRL = ConverterCurrency.convertUSDtoBRL(valorUSD);
-                    System.out.printf("Valor convertido: %2f USD\n", valorBRL);
+                    System.out.printf("Valor convertido: %2f BRL\n", valorBRL);
                     break;
                 case 4:
                     System.out.println("\nVocê escolheu Real =>>> Dólar");
@@ -71,7 +71,7 @@ public class MenuConverter {
                     valorUSD = valor.nextDouble();
 
                     double valorCOP = ConverterCurrency.convertCOPtoUSD(valorUSD);
-                    System.out.printf("Valor convertido: %2f USD\n", valorCOP);
+                    System.out.printf("Valor convertido: %2f COP\n", valorCOP);
 
                     break;
                 case 6:
