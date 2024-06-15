@@ -27,6 +27,14 @@
 ## functionalities
 
 - Converter currency in 6 diferents coins.
+- Convert:
+  - Dolar to Peso Argentino.
+  - Peso Argentino  to Dolar.
+  - Dolar to Real.
+  - Real to Dolar.
+  - Dolar to Peso colombiano
+  - Peso Colombiano to Dolar.
+
 
 ***Validations***
 
